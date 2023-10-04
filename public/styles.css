@@ -228,14 +228,18 @@ body * {
 .wd-flex-row-container .containe .main-page .module .top-sec .dropdown {
   display: inline-block;
 }
+
 .wd-flex-row-container
   .containe
   .main-page
   .module
   .top-sec
-  .dropdown
-  .dropdown-menu {
+  #special-button
+  .special {
   z-index: 999;
+  position: relative;
+  color: red;
+  overflow: visible;
 }
 
 .wd-flex-row-container
@@ -436,6 +440,7 @@ body * {
   .dropdown
   .dropdown-menu {
   z-index: 999;
+  position: relative;
 }
 
 .wd-flex-row-container
@@ -590,4 +595,49 @@ body * {
 
 .table-responsive .table-striped-odd tbody tr:nth-child(odd) {
   background-color: #f0f0f0;
+}
+
+/* Setting-course detail page */
+.wd-flex-row-container
+  .containe
+  .main-page
+  .course-detail
+  .detail-main
+  .container
+  .row
+  .box {
+  width: 300px;
+  height: 100px;
+  border: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wd-flex-row-container .containe .main-page .course-detail .top {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-bottom: solid 1px lightgray;
+}
+.wd-flex-row-container .containe .main-page .course-detail .top .select {
+  border: solid 1px lightgray;
+  border-bottom: 0;
+}
+.wd-flex-row-container .containe .main-page .course-detail .top .select a {
+  color: black;
+}
+.wd-flex-row-container .containe .main-page .course-detail .top a {
+  text-decoration: none;
+  color: red;
+  margin: 10px;
+  text-align: center;
+}
+.wd-flex-row-container .containe .main-page .course-detail .btn-clear {
+  color: red;
+}
+
+.wd-flex-row-container .containe .main-page .course-detail .btn-danger a {
+  text-decoration: none;
 }

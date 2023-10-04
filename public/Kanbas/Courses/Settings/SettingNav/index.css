@@ -1,0 +1,29 @@
+.wd-flex-row-container .containe .main-page .course-detail .nav-main .box {
+  display: inline-block;
+}
+
+.wd-flex-row-container .containe .main-page .course-detail .nav-main .box h5,
+.wd-flex-row-container .containe .main-page .course-detail .nav-main .box p {
+  margin: 0;
+}
+.wd-flex-row-container
+  .containe
+  .main-page
+  .course-detail
+  .nav-main
+  .list-group-item {
+  position: relative;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .course-detail
+  .nav-main
+  .list-group-item
+  i {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
