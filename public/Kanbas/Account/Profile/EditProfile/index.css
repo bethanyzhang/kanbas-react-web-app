@@ -1,0 +1,38 @@
+.wd-flex-row-container .profile-edit .links {
+  margin-top: 20px;
+}
+.wd-flex-row-container .profile-edit .profile-input {
+  margin-top: 20px;
+  display: block;
+}
+
+.wd-flex-row-container .profile a {
+  text-decoration: none;
+  color: white;
+}
+
+.wd-flex-row-container .profile-edit .text-center {
+  padding: 0px;
+  width: 600px;
+  display: block;
+  margin: 0;
+}
+.wd-flex-row-container .profile-edit .text-center .row {
+  margin: 0px;
+}
+
+.wd-flex-row-container .profile-edit .text-center .row .col {
+  padding: 0px;
+}
+
+.wd-flex-row-container .profile-edit .add-another {
+  display: block;
+}
+
+.wd-flex-row-container .profile-edit .fa-arrow-right {
+  position: relative;
+  top: 30px;
+}
+.wd-flex-row-container .profile-edit .mb-3 {
+  width: 80%;
+}

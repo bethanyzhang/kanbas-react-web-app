@@ -1,0 +1,144 @@
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .top-sec
+  .left-side {
+  float: left;
+  width: 30%;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .top-sec
+  .right-side {
+  float: right;
+}
+
+.wd-flex-row-container .containe .assignment-main .assignments .top-sec {
+  overflow: hidden;
+  height: 50px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .leftside {
+  margin: auto;
+  display: inline-block;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .leftside
+  h5,
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .leftside
+  .dropdown {
+  display: inline-block;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .leftside
+  .dropdown
+  .dropdown-menu {
+  z-index: 999;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .rightside {
+  float: right;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .rightside
+  button {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .rightside
+  .fa-plus {
+  margin-right: 10px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .sub {
+  display: flex;
+  align-items: center;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .sub
+  .mid {
+  text-align: left;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .sub
+  .mid
+  h6 {
+  font-size: 14px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .sub
+  .mid
+  p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .assignments-lists
+  .sub
+  .mid
+  a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}

@@ -1,0 +1,157 @@
+.wd-flex-row-container .containe .assignment-main .assignments {
+  padding-right: 20px;
+}
+
+.wd-flex-row-container .containe .assignment-main .assignments .container .row {
+  margin-bottom: 15px;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-left {
+  text-align: right;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-left
+  label.form-label {
+  width: 200px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right {
+  text-align: left;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .submission,
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .assign
+  .top {
+  border: solid lightgrey;
+  padding: 20px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .submission
+  h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .submission
+  input,
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .submission
+  label {
+  margin-bottom: 10px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .assign
+  .available,
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .assign
+  .until {
+  display: inline-block;
+  margin-right: 30px;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .container
+  .row
+  .form-right
+  .assign
+  .grey-add {
+  border: solid lightgray;
+  background-color: lightgray;
+  text-align: center;
+}
+.wd-flex-row-container .containe .assignment-main .bottom-check {
+  display: inline-block;
+}
+.wd-flex-row-container .containe .assignment-main .assignments .button-group {
+  float: right;
+  margin-bottom: 5px;
+}
+.wd-flex-row-container .containe .assignment-main .assignments .button-group a {
+  text-decoration: none;
+  color: black;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .button-group
+  .save {
+  margin-right: 5px;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .button-group
+  .cancel
+  a {
+  color: white;
+}

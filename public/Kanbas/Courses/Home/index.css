@@ -1,0 +1,202 @@
+.wd-flex-row-container .containe .row .courseNav {
+  width: 200px;
+  margin-left: 25px;
+  flex-wrap: wrap;
+}
+.courseNav ul li a {
+  color: red;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.courseNav ul {
+  list-style: none;
+  padding: 0px;
+}
+.courseNav ul li {
+  margin-bottom: 20px;
+}
+
+/* .homescreen-top {
+  position: fixed;
+  left: 300px;
+} */
+
+.courseNav .home a {
+  color: black;
+  border-left: black solid;
+}
+.wd-flex-row-container .containe {
+  width: 100%;
+}
+.wd-flex-row-container .containe .banner {
+  height: 50px;
+  overflow: hidden;
+}
+
+.wd-flex-row-container .containe .banner .homescreen-top .btn-secondary {
+  float: right;
+  position: relative;
+  top: -55px;
+  right: 10px;
+}
+
+.wd-flex-row-container .containe .banner .homescreen-top .fa-bars {
+  color: red;
+  margin-left: 20px;
+}
+.wd-flex-row-container .containe .banner .homescreen-top li {
+  padding: 10px;
+}
+
+.wd-flex-row-container .containe .banner .homescreen-top li:nth-child(2) a {
+  color: red;
+  text-decoration: none;
+}
+.wd-flex-row-container .containe .main-page .module .top-sec {
+  overflow: hidden;
+  text-align: right;
+}
+.wd-flex-row-container .containe .main-page .module .top-sec .dropdown {
+  display: inline-block;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .box,
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .icons {
+  display: inline-block;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .icons {
+  float: right;
+}
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .icons
+  .fa-check {
+  margin-right: 10px;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .right-side {
+  float: right;
+}
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .right-side
+  .dropdown {
+  display: inline-block;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  .right-side
+  .fa-plus {
+  margin-right: 10px;
+}
+.wd-flex-row-container
+  .containe
+  .main-page
+  .module
+  .weekly-lists
+  .list-group
+  a {
+  text-decoration: none;
+  color: red;
+}
+
+@media (max-width: 1200px) {
+  .status {
+    display: none; /* Hide the actions column */
+  }
+  .module {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .kanbasNav,
+  .courseNav {
+    display: none; /* Hide both navigation sidebars */
+  }
+  .module {
+    width: 100%;
+  }
+}
+.wd-flex-row-container .containe .main-page .status {
+  margin-left: 10px;
+}
+.wd-flex-row-container .containe .main-page .status a {
+  color: black;
+  text-decoration: none;
+}
+
+.wd-flex-row-container .containe .main-page .status .d-flex {
+  margin-top: 20px;
+}
+
+.wd-flex-row-container .containe .main-page .status .to-do h6 {
+  display: inline-block;
+}
+
+.wd-flex-row-container .containe .main-page .status .to-do h6 a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.wd-flex-row-container .containe .main-page .status .to-do p {
+  font-size: 0.7em;
+}
+
+.wd-flex-row-container .containe .main-page .status .coming-up h4 {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.wd-flex-row-container
+  .containe
+  .main-page
+  .status
+  .coming-up
+  .fa-calendar-days {
+  margin-right: 5px;
+}
+
+.wd-flex-row-container .containe .main-page .status .coming-up ul li a {
+  color: red;
+}

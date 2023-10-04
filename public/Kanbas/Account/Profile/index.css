@@ -1,0 +1,85 @@
+.wd-flex-row-container .accountNav {
+  width: 200px;
+  margin-left: 25px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+
+.wd-flex-row-container .accountNav ul {
+  list-style: none;
+  padding: 0px;
+}
+.wd-flex-row-container .accountNav ul li {
+  margin-bottom: 20px;
+}
+.wd-flex-row-container .accountNav ul li a {
+  text-decoration: none;
+  color: red;
+  text-align: left;
+  padding-left: 10px;
+}
+.wd-flex-row-container .accountNav ul li .profile-page {
+  color: black;
+  border-left: black solid;
+}
+
+.wd-flex-row-container .profile {
+  width: 100%;
+}
+.wd-flex-row-container .profile .profile-logo .fa-user {
+  font-size: 5em;
+}
+
+.wd-flex-row-container .profile .profile-logo h2 {
+  margin-top: 10px;
+}
+.wd-flex-row-container .profile .edit-profile-btn {
+  float: right;
+  margin-top: 40px;
+  margin-right: 400px;
+}
+
+.wd-flex-row-container .profile .contact {
+  margin-top: 50px;
+}
+.wd-flex-row-container .profile .contact p {
+  overflow-wrap: normal;
+}
+.wd-flex-row-container .profile .contact a {
+  color: red;
+  text-decoration: none;
+}
+.wd-flex-row-container .profile .contact h3 {
+  margin-bottom: 10px;
+}
+
+.wd-flex-row-container .profile .biography {
+  margin-top: 50px;
+}
+
+.wd-flex-row-container .profile .biography h3 {
+  margin-bottom: 10px;
+}
+
+.wd-flex-row-container .profile .links {
+  margin-top: 50px;
+}
+.wd-flex-row-container .profile .links h3 {
+  margin-bottom: 10px;
+}
+.wd-flex-row-container .profile .links a {
+  text-decoration: none;
+  color: red;
+}
+
+.wd-flex-row-container .profile .links .fa-link {
+  color: grey;
+}
+
+.wd-flex-row-container .profile .account-top {
+  padding-top: 10px;
+}
+.wd-flex-row-container .profile .account-top .fa-bars {
+  color: red;
+  margin-right: 10px;
+}

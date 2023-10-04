@@ -1,0 +1,68 @@
+.wd-flex-row-container .containe .assignment-main .assignments .right {
+  display: flex;
+}
+.wd-flex-row-container .containe .assignment-main {
+  display: flex;
+  flex-direction: row;
+}
+/* .wd-flex-row-container .containe .assignment-main .grade {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+} */
+.wd-flex-row-container .containe .assignment-main .assignments .top {
+  height: 40px;
+}
+.wd-flex-row-container .containe .assignment-main .assignments .right button,
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .right
+  .dropdown {
+  margin-right: 10px;
+}
+
+.wd-flex-row-container .containe .assignment-main .assignments .inputs-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .inputs-group
+  .search-name {
+  flex: 50%;
+  margin-right: 20px;
+}
+.wd-flex-row-container
+  .containe
+  .assignment-main
+  .assignments
+  .inputs-group
+  .search-assignment {
+  flex: 50%;
+  margin-right: 20px;
+}
+
+.table-responsive {
+  margin-top: 10px;
+}
+
+.table-responsive table,
+.table-responsive th,
+.table-responsive td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+.table-responsive table,
+.table-responsive th,
+.table-responsive td input {
+  width: 100%;
+}
+
+.table-responsive .table-striped-odd tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}

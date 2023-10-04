@@ -1,0 +1,31 @@
+.kanbas-nav {
+  list-style: none;
+  padding: 0;
+  background-color: black;
+  width: 80px;
+}
+
+.kanbas-nav li {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.kanbas-nav li.active {
+  background-color: white;
+}
+
+.kanbas-nav li.active a .kanbas-nav-name {
+  color: red;
+}
+.kanbas-nav li a {
+  text-decoration: none;
+}
+
+.kanbas-nav li:first-child a i {
+  font-size: 3em;
+}
+.kanbas-nav .kanbas-nav-name {
+  color: white;
+}
