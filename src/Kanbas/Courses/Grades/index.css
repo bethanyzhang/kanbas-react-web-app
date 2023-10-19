@@ -1,0 +1,9 @@
+.top {
+  height: 50px;
+}
+.grade-export {
+  display: inline-block;
+}
+.grade-main {
+  margin-right: 30px;
+}

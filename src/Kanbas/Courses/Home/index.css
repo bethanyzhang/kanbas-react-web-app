@@ -1,0 +1,55 @@
+.status {
+  margin-left: 10px;
+}
+.status a {
+  color: black;
+  text-decoration: none;
+}
+
+.status .d-flex {
+  margin-top: 20px;
+}
+
+.status .to-do h6 {
+  display: inline-block;
+}
+
+.status .to-do h6 a {
+  text-decoration: none;
+  color: darkred;
+}
+
+.status .to-do p {
+  font-size: 0.7em;
+}
+
+.status .coming-up h4 {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.status .coming-up .fa-calendar-days {
+  margin-right: 5px;
+}
+
+.status .coming-up ul li a {
+  color: red;
+}
+@media (max-width: 1200px) {
+  .status {
+    display: none; /* Hide the actions column */
+  }
+  .module {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .kanbasNav,
+  .courseNav {
+    display: none; /* Hide both navigation sidebars */
+  }
+  .module {
+    width: 100%;
+  }
+}
