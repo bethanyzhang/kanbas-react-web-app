@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css'
+import Labs from "./Labs"
+import Kanbas from "./Kanbas"
+import HelloWorld from "./Labs/a3/HelloWorld"
+import { HashRouter, Link, Route, Routes, Navigate } from "react-router-dom"
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <HashRouter>
+      <div>
+        {/* <Link to="/Hello">Hello World</Link>
+        <br />
+        <Link to="/Labs">Labs</Link>
+        <br />
+        <Link to="/Kanbas">Kanbas</Link> */}
+        <Routes>
+          <Route path="/" element={<Navigate to="/Kanbas" />} />
+          <Route path="/Hello" element={<HelloWorld />}></Route>
+          <Route path="/Labs/*" element={<Labs />}></Route>
+          <Route path="/Kanbas/*" element={<Kanbas />}></Route>
+        </Routes>
+      </div>
+    </HashRouter >
+
+
+  )
 }
 
-export default App;
+export default App

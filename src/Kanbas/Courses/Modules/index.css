@@ -1,0 +1,30 @@
+.top-sec {
+  text-align: right;
+}
+.top-sec .dropdown {
+  display: inline-block;
+  z-index: 999;
+}
+
+.top-sec #special-button .special {
+  z-index: 999;
+  position: relative;
+  color: red;
+  overflow: visible;
+}
+
+.top-sec .btn-secondary,
+.top-sec .dropdown,
+.top-sec .btn-danger {
+  margin-right: 10px;
+}
+
+.module-home {
+  margin-right: 30px;
+}
+.list-group {
+  margin-bottom: 10px;
+}
+.heading {
+  background-color: lightgrey;
+}

@@ -1,0 +1,21 @@
+.top-sec .left-side {
+  float: left;
+  width: 30%;
+}
+
+.top-sec .right-side {
+  float: right;
+}
+
+.top-sec {
+  overflow: hidden;
+  height: 50px;
+}
+
+.assign-head {
+  background-color: #d8d8d8;
+}
+
+.assign-list {
+  height: 80px;
+}
