@@ -7,13 +7,14 @@ import Assignments from "./Assignments"
 import AssignmentEditor from "./Assignments/AssignmentEditor"
 import Grades from "./Grades"
 import { AiOutlineRight } from 'react-icons/ai'
+import AssignmentAdd from "./Assignments/AssignmentEditor/AssignmentAdd"
 
 
-function Courses () {
+function Courses ({ courses }) {
   const { courseId } = useParams()
   const { pathname } = useLocation()
-  const [empty, kanbas, courses, id, screen, assignment] = pathname.split("/")
-  const course = db.courses.find((course) => course._id === courseId)
+  const [empty, kanbas, coursePath, id, screen, assignment] = pathname.split("/")
+  const course = courses.find((course) => course._id === courseId)
   return (
     <div>
       <h1> {course.name} <AiOutlineRight /> {screen} {assignment ? <span><AiOutlineRight /> {assignment}</span> : ""} </h1>
@@ -34,6 +35,10 @@ function Courses () {
             <Route
               path="Assignments/:assignmentId"
               element={<AssignmentEditor />}
+            />
+            <Route
+              path="Assignments/addAssignment"
+              element={<AssignmentAdd />}
             />
             <Route path="Grades" element={<Grades />} />
           </Routes>

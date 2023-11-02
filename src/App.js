@@ -15,7 +15,7 @@ function App () {
         <br />
         <Link to="/Kanbas">Kanbas</Link> */}
         <Routes>
-          <Route path="/" element={<Navigate to="/Kanbas" />} />
+          <Route path="/" element={<Navigate to="/Labs" />} />
           <Route path="/Hello" element={<HelloWorld />}></Route>
           <Route path="/Labs/*" element={<Labs />}></Route>
           <Route path="/Kanbas/*" element={<Kanbas />}></Route>
@@ -28,3 +28,8 @@ function App () {
 }
 
 export default App
+
+
+
+
+
