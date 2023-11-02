@@ -14,7 +14,7 @@ import {
 
 
 
-function AssignmentEditor () {
+function AssignmentAdd () {
   const { assignmentId } = useParams()
   // const assignment = db.assignments.find(
   //   (assignment) => assignment._id === assignmentId)
@@ -22,10 +22,10 @@ function AssignmentEditor () {
 
   const { courseId } = useParams()
   const navigate = useNavigate()
-  const handleSave = () => {
-    console.log("Actually saving assignment TBD in later assignments")
-    navigate(`/Kanbas/Courses/${courseId}/Assignments`)
-  }
+  // const handleSave = () => {
+  //   console.log("Actually saving assignment TBD in later assignments")
+  //   navigate(`/Kanbas/Courses/${courseId}/Assignments`)
+  // }
 
 
   const assignments = useSelector((state) => state.assignmentReducer.assignments)
@@ -35,6 +35,7 @@ function AssignmentEditor () {
 
   return (
     <div className="assign-edit">
+
       <div class="top-sec">
 
         <div class="right-side">
@@ -46,9 +47,9 @@ function AssignmentEditor () {
       <hr />
       <h2>Assignment Name</h2>
       <input value={assignment.title}
-        className="form-control mb-2" onChange={(e) =>
+        onChange={(e) =>
           dispatch(setAssignment({ ...assignment, title: e.target.value }))
-        } />
+        } style={{ width: 300 }} />
       <h2>Assignment Description</h2>
       <textarea
         value={assignment.description}
@@ -71,7 +72,7 @@ function AssignmentEditor () {
         Cancel
       </Link>
       <Link to={`/Kanbas/Courses/${courseId}/Assignments`}>
-        <button onClick={() => dispatch(updateAssignment({ ...assignment, course: courseId }))} className="btn btn-danger me-2 ms-4">
+        <button onClick={() => dispatch(addAssignment({ ...assignment, course: courseId }))} className="btn btn-danger me-2 ms-4">
           Save
         </button>
       </Link>
@@ -80,4 +81,4 @@ function AssignmentEditor () {
 }
 
 
-export default AssignmentEditor
+export default AssignmentAdd
