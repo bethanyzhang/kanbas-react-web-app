@@ -1,20 +1,48 @@
-import db from "../../Kanbas/Database"
-import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom"
+
+import axios from "axios"
+
+
+
+
+import { AiOutlineRight } from 'react-icons/ai'
+import AssignmentAdd from "./Assignments/AssignmentEditor/AssignmentAdd"
+import React, { useState, useEffect } from "react"
+import {
+  useParams,
+  Routes,
+  Route,
+  Navigate,
+  useLocation,
+} from "react-router-dom"
+import JsonPre from "../../Labs/a3/JsonPre"
+import db from "../Database"
 import CourseNavigation from "./CourseNavigation"
 import Modules from "./Modules"
 import Home from "./Home"
 import Assignments from "./Assignments"
 import AssignmentEditor from "./Assignments/AssignmentEditor"
 import Grades from "./Grades"
-import { AiOutlineRight } from 'react-icons/ai'
-import AssignmentAdd from "./Assignments/AssignmentEditor/AssignmentAdd"
+import * as client from "./client"
 
 
-function Courses ({ courses }) {
+function Courses () {
   const { courseId } = useParams()
   const { pathname } = useLocation()
   const [empty, kanbas, coursePath, id, screen, assignment] = pathname.split("/")
-  const course = courses.find((course) => course._id === courseId)
+  const [course, setCourse] = useState({}) // = db.courses.find((course) => course._id === courseId);
+  const fetchCourse = async () => {
+    const course = await client.fetchCourse(courseId)
+    setCourse(course)
+  }
+
+  useEffect(() => {
+    fetchCourse()
+  }, [])
+
+
+  // const { pathname } = useLocation()
+  // const [empty, kanbas, coursePath, id, screen, assignment] = pathname.split("/")
+  // const course = courses.find((course) => course._id === courseId)
   return (
     <div>
       <h1> {course.name} <AiOutlineRight /> {screen} {assignment ? <span><AiOutlineRight /> {assignment}</span> : ""} </h1>

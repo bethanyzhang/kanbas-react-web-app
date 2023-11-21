@@ -26,7 +26,10 @@ function Home () {
             Stream</button></div>
           <div className="p-2"><button className="btn btn-light">New
             Announcement</button></div>
-          <div className="p-2"><button classNames="btn btn-light">New Analytics</button></div>
+          <div className="p-2">
+            <button className="btn btn-light">New Analytics</button>
+          </div>
+
           <div className="p-2"><button className="btn btn-light"><a href="#">View Couese
             Notifications</a></button></div>
         </div>
