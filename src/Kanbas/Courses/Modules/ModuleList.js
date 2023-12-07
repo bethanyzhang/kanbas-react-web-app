@@ -82,6 +82,14 @@
 import React, { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import * as client from "./client"
+import {
+  addModule,
+  deleteModule,
+  updateModule,
+  setModule,
+  setModules,
+} from "./modulesReducer"
+import { dispatch } from 'react'
 
 function ModuleList () {
   const { courseId } = useParams()
@@ -104,6 +112,9 @@ function ModuleList () {
       console.log(error)
     }
   }
+
+
+
   const updateModule = async (moduleId, module) => {
     try {
       await client.updateModule(moduleId, module)
